@@ -7,10 +7,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
+var mock_heroes_1 = require("./mock-heroes");
 var HeroService = (function () {
     function HeroService() {
     }
-    HeroService.prototype.getHeroes = function () { }; //stub
+    HeroService.prototype.getHeroes = function () {
+        return Promise.resolve(mock_heroes_1.HEROES);
+    };
     return HeroService;
 }());
 HeroService = __decorate([

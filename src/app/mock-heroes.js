@@ -12,5 +12,4 @@ exports.HEROES = [
     { id: 19, name: 'Magma' },
     { id: 20, name: 'Tornado' }
 ];
-sdfsdf;
 //# sourceMappingURL=mock-heroes.js.map
