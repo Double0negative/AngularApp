@@ -7,18 +7,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
-        this.title = 'Tour of Heroes';
+var DashboardComponent = (function () {
+    function DashboardComponent() {
     }
-    return AppComponent;
+    return DashboardComponent;
 }());
-AppComponent = __decorate([
+DashboardComponent = __decorate([
     core_1.Component({
-        selector: 'my-heroes',
-        template: "\n        <h1>{{title}}</h1>\n        <a routerLink=\"/heroes\">Heroes</a>\n        <a routerLink=\"/dashboard\"></a>\n\n        <router-outlet></router-outlet>\n    "
+        selector: 'my-dashboard',
+        template: '<h3>My Dashboard</h3>'
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-sdh;
-//# sourceMappingURL=app.component.js.map
+], DashboardComponent);
+exports.DashboardComponent = DashboardComponent;
+//# sourceMappingURL=dashboard.component.js.map
